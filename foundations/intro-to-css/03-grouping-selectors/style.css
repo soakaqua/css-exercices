@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+body{}
+.first{
+    background-color: black;
+    color: white;
+}
+.second{
+    background-color: yellow;
+}
+ /* s'applique aux deux */
+.first, .second {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", "sans-serif";
+}

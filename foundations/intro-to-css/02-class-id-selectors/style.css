@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.classic-number{
+    background-color: #f3a1cc;
+    font-family: "Verdana", "DejaVu Sans", 'sans-serif';
+}
+.adjust-font-size{
+    font-size: 24px;
+}
+#id-number-2{
+    color: #3127b4;
+    font-size: 36px;
+}
+#id-number-4{
+    background-color: #98bd88f6;
+    font-size: 24px;
+    font-weight: bold;
+}
