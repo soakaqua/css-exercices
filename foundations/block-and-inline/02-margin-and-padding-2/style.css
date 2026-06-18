@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,22 +16,46 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  /* margin: 16px auto; */
+  padding: 10px 16px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 16px 0px;
+  padding: 10px 10px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 16px 0px;
+  padding: 10px 10px;
+  width: 368px;
+
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 16px 0px;
+  width: 368px;
+  padding : 10px 10px;
+  /* width: 200px; */
+
+}
+
+.above-button {
+  display: inline-block;
+  text-align: center;
+  /* margin: 0px auto; */
+  margin: 0px auto 0px auto;
+  width: 368px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 10px;
 }
